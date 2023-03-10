@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сапёр</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mines">
+        <section class="mines_settings">
+            <input class="settings_number" type="number" name="rows" value="16" min="8" max="30">
+            <input class="settings_number" type="number" name="cols" value="16" min="8" max="40">
+            <div class="mines_difficulty">
+                <input id="difficulty" class="settings_range" type="range" name="difficulty" value="10" min="10" max="20" step="5">
+                <label for="difficulty">easy</label>
+            </div>
+            <button id="start" class="mines_start waves-effect waves-light btn"><i class="material-icons left">gamepad</i>Start</button>
+        </section>
+        <div class="mines_container">
+            <div class="mines_field">
+
+            </div>
+        </div>
+
+
+       
+    
+</div>
+
+
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="./js/mines.js"></script>
+</body>
+
+</html>
